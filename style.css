@@ -30,9 +30,12 @@ header > div#linkedin{
     border: 10px rgb(255, 255, 255) solid;
     border-radius: 45%;
     font-size: 5rem;
-    text-align: center;
     margin-top: 8%;
     
+}
+div#linkedin > p a {
+    display: inline-block;
+    margin: 2,1% 5% 1% 5%;
 }
 
 a {
@@ -67,13 +70,29 @@ section > p , li{
 
 section#apres{
     background-color: rgb(70, 70, 70);
+    
+}
+section#apres > div#sobre{
+    display: inline-block;
+    color: white;
     text-align: justify;
     margin-left: -0.2%;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-align: center;
-
+    text-align: left;
+    font-size: 3.7vw;
+    margin: 1%;
+    margin-left: 2%;
+    width: 730px;
+    
 }
+
+section#apres > img#south {
+    display: inline-block;
+    background-position: center center;
+    height: 1800px;
+}
+
 section#exp{
     background-color: rgb(109, 109, 109);
     text-align: justify;
@@ -99,6 +118,14 @@ section#proj > div {
     font-size: 5rem;
     margin: 1%;
     border: 8px goldenrod solid;
+    border-radius: 20%;
+}
+section#proj > div > p {
+    text-align: center;
+    background-color: goldenrod;
+    margin: 53% 0% 50% -15%;
+    width: 130%;
+    transform: rotate(-50deg);
 }
 
 
