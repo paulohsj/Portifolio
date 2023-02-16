@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(37, 37, 37);
+    background-color: #555D60;
 }
 
 header{
@@ -25,11 +25,11 @@ header > div#nome > p {
 header > div#linkedin{
     display: inline-block;
     background-color: rgb(70, 69, 69);
-    width: 23vw;
+    width: 23vh;
     height: 12vh;
     border: 10px rgb(255, 255, 255) solid;
     border-radius: 45%;
-    font-size: 5rem;
+    font-size: 4vh;
     margin-top: 8%;
     
 }
@@ -45,14 +45,15 @@ a {
 
 section {
     display: inline-block;
-    width: 101%;
+    width: 100.3%;
     height: 110%;
+    
 }
 
 section > h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4vw;
-    color: rgb(241, 185, 42);
+    color: rgb(255, 255, 255);
     padding-top: 35px;
     padding-left: 120px;
     margin-bottom: 70px;
@@ -69,8 +70,8 @@ section > p , li{
 
 
 section#apres{
-    background-color: rgb(70, 70, 70);
-    
+    background-color: #F2B705;
+
 }
 section#apres > div#sobre{
     display: inline-block;
@@ -80,31 +81,31 @@ section#apres > div#sobre{
     margin-top: 0%;
     margin-bottom: 0%;
     text-align: left;
-    font-size: 3.7vw;
+    font-size: 3.5vh;
     margin: 1%;
     margin-left: 2%;
-    width: 730px;
+    width: 50%;
+    height: 50%;
     
 }
 
-section#apres > img#south {
+section#apres > img#anime {
     display: inline-block;
     background-position: center center;
-    height: 1800px;
+    height: 1500px;
 }
 
 section#exp{
-    background-color: rgb(109, 109, 109);
+    background-color: #F29F05;
     text-align: justify;
-    margin-left: -0.2%;
 }
 section#exp > h2 , p {
     margin-left: 2%;
+    
 }
 
 section#proj {
-    background-color: rgb(59, 57, 57);
-    margin-left: -0.2%;
+    background-color: #F2B705;
     text-align: center;
 
 }
@@ -122,7 +123,7 @@ section#proj > div {
 }
 section#proj > div > p {
     text-align: center;
-    background-color: goldenrod;
+    background-color: #F29F05;
     margin: 53% 0% 50% -15%;
     width: 130%;
     transform: rotate(-50deg);
@@ -131,7 +132,7 @@ section#proj > div > p {
 
 
 section#curso {
-    background-color: rgb(70, 69, 69);
+    background-color: #F29F05;
     text-align: right;
 }
 section#curso > li , h2 , p{
